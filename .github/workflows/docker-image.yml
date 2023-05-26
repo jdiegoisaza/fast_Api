@@ -20,4 +20,4 @@ jobs:
     - name: Ejecutar el servicio  
       run: uvicorn app.main:app --host 0.0.0.0 --port 8000
       with:
-        python-version: 3.
+        python-version: 3.9
